@@ -249,5 +249,48 @@
         navigation.classList.toggle('active');
     }
     </script>
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h2><span>S</span>obre Nosotros</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia in laboriosam nam ducimus voluptate praesentium aperiam, ipsam repellat labore facilis repellendus? Esse dolorum nam accusamus eum minima dignissimos ratione officiis?</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Nuestros links</h2>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Terminos y Condiciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2><span>I</span>nformación de Contacto</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>Los Alercer 847 <br>
+                        Villa los Esteros, Osorno <br> Chile</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span>+56923658496</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span>Correo@Correo.cl</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -251,9 +251,92 @@ section .contactForm .inputBox input[type="submit"]
 .white p
     color #fff 
 
+footer
+    position relative
+    width 100%
+    height: auto
+    padding 50px 100px
+    background: #111
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    .container
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        flex-direction: row
+        .sec
+            margin-right: 30px
+        .sec.aboutus
+            width 40%
+            p  
+                color #999
+            .sci
+                margin-top: 20px
+                display flex
+                li
+                    list-style none
+                    a
+                        display inline-block
+                        width 40px
+                        height: 40px
+                        background: #222
+                        display flex
+                        justify-content center
+                        align-items: center
+                        margin-right: 10px
+                        text-decoration: none
+                        border-radius: 4px
+                        i
+                            color #fff
+                            &:hover
+                                color: #ff0517
+        .quicklinks
+            position relative
+            width 25%
+            ul
+                li
+                    list-style none
+                    a
+                        color #999
+                        text-decoration: none
+                        margin-bottom: 10px
+                        display: inline-block
+                        &:hover
+                            color #fff
+        .contact
+            width: calc(35% - 60px)
+            margin-right: 0 !important
+            .info
+                position relative
+                li
+                    display flex
+                    margin-bottom: 16px
+                    span 
+                        color #999
+                        &:nth-child(1)
+                            color #fff
+                            font-size: 20px
+                            margin-right: 10px
+                        a
+                            color #999
+                            text-decoration: none
+                            &:hover
+                                color #fff
+footer .container h2
+    position relative
+    color #fff
+    font-weight: 500
+    margin-bottom: 15px
 
-
-
+footer .container h2:before
+    content: ''
+    position absolute
+    bottom: -5px
+    left 0px
+    width 50px
+    height: 2px
+    background: #f00
 
 //Manejo de la class Sticky, al momento de hacer scroll en la pantalla
 
@@ -346,6 +429,17 @@ header .navigation li a:hover
             padding 35px 40px
             margin-top: 20px
             margin-bottom: 30px
+    footer
+        padding 40px
+        .container
+            flex-direction: column
+            .sec
+                margin-right: 0
+                margin-bottom: 40px
+    footer .container .sec.aboutus,
+    .quicklinks,
+    .contact
+        width 100%
 @media (max-width: 991px)
     .banner .content h2
         font-size: 2.2em
