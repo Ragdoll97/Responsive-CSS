@@ -158,6 +158,7 @@
             <div class="title white">
                 <h2>Contactame</h2>
                 <p>Puedes contactarme siempre que lo requieras, estoy atento a mis redes de forma regular.</p>
+                
             </div>
             <div class="contactForm">
                 <div class="row">
