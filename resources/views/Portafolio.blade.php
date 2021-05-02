@@ -111,7 +111,7 @@
             <div class="content">
                 <div class="workBox">
                     <div class="imgBox">
-                        <img src="/images/TeaWeb.png" alt="">
+                        <img src="/images/TeaWeb.jpg" alt="">
                     </div>
                     <div class="textBox">
                         
@@ -120,7 +120,7 @@
                 </div>
                 <div class="workBox">
                     <div class="imgBox">
-                        <img src="/images/Login.png" alt="">
+                        <img src="/images/Login.jpg" alt="">
                     </div>
                     <div class="textBox">
                         <a href="{{url('/Login')}}"><h3>Inicio de sesión funcional</h3></a>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="workBox">
                     <div class="imgBox">
-                        <img src="/images/Css.png" alt="">
+                        <img src="/images/Css.jpg" alt="">
                     </div>
                     <div class="textBox">
                         <a href="{{url('/CssWeb')}}"><h3>Css utilizado para pobrar el modo oscuro</h3></a>
