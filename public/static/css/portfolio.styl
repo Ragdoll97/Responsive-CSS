@@ -28,6 +28,46 @@
     background-repeat: no-repeat
     transition: 0.2s
 
+.btn-1
+    --c: #000;
+    color: var(--c);
+    border: 0.1em solid #fff;
+    border-radius: 0.7em;
+    height: 3em;
+    letter-spacing: 0.1em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+.btn-1:hover {
+    color: #fff;
+}
+.banner .contentBox a span
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+    &:nth-child(1)
+        --n: 1;
+    &:nth-child(2)
+        --n: 2;
+    &:nth-child(3)
+        --n: 3;
+    &:nth-child(4)
+        --n: 4;
+.banner .contentBox a:hover span
+    transform: translateY(0) scale(2);
+
+
+
+
+
 section
     padding 100px
     min-height: 100vh
@@ -112,6 +152,8 @@ section
             max-width: 49%
             p
                 color #fff
+                span
+                    color #DF3E1C
         .imgBox
             margin-left: 40px
             img
@@ -155,11 +197,13 @@ section
 
 //CSS que maneja la seccion proyectos
 .works
+    padding 0px !important
     .content
         display flex
         justify-content: center
         flex-direction: row
         flex-wrap: wrap
+        
         .workBox
             position relative
             width 265px
@@ -189,7 +233,7 @@ section
                 opacity: 0
                 transition: 0.5s
                 &:hover
-                    opacity: 1
+                    opacity: .9
                 h3
                     color #fff
                     text-transform: uppercase
@@ -206,6 +250,7 @@ section
     justify-content: center
     align-items: center
     flex-direction: column
+
     .contactForm
         position relative
         width 700px
@@ -241,6 +286,9 @@ section
                 letter-spacing: 2px
                 cursor pointer
                 max-width: 150px
+                &:hover
+                    background: #fff
+                    color #DF3E1C
 //Aqui termina el CSS de la seccion contacto
 //CSS que maneja colores y tamaños de los titulos
 .title
@@ -399,13 +447,12 @@ p
         margin 10px
     .sidebar ul li a
         font-size: 1.5em
-
-
-@media (max-width: 500px)
-
     .services .content .servicesBox,
-    .work .content .workBox
+    .works .content .workBox
         padding 30px 20px
         max-width: 100%
         width 100%
         margin 10px 0
+
+    
+        

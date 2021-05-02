@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Portafolio');
 });
+
+Route::get('/ResponsiveWeb', 'App\Http\Controllers\ShowPagesController@showTeaWeb')->name('TeaWeb');
+Route::get('/Login', 'App\Http\Controllers\ShowPagesController@ShowLogin')->name('Login');
+Route::get('/CssWeb', 'App\Http\Controllers\ShowPagesController@ShowCssWeb')->name('CssWeb');

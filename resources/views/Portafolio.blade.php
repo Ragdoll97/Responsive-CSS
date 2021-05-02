@@ -26,13 +26,17 @@
                     <h4><span>Hola</span>, Mi nombre es</h4>
                     <h2>Danilo Soto</h2>
                     <h4>Soy un desarrollador web Front-End y Back-End</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima tempore nostrum cumque iusto quis maxime voluptates laboriosam quo consequunturlibero, saepe sunt nam ad rerum accusamus vitae architecto officia odit.</p>
-                    <a href="#" class="btn">Sobre Mi</a>
+                    <p>Ofrezco un ambiente de confianza y transparencia en todo el desarrollo del proyecto, tomaré importancia a cada petición del cliente, cumpliendo con sus expectativas al máximo.</p>
+                    <p>Puedes contactarme por medio de mis redes, incluidas aquí abajo.</p>
+                    <a href="#" class="btn btn-1">Sobre Mi
+                        <span></span><span></span><span></span><span></span>
+                    </a>
+ 
                 </div>
                 <ul class="sci">
-                    <li><a href="#"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/Ragdoll97"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/danilosoto97/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/Danilo.Soto97/"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </section>
@@ -40,15 +44,18 @@
         <section class="about" id="about">
             <div class="title white">
                 <h2>Sobre Mi</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam ad illum nam cumque, dolorem alias at fugit libero eaque id odit cum voluptatibus non. Similique itaque officia recusandae aperiam.</p>
+                <p>Soy ex-Alumno titulado de INACAP, estudíe analista programador, actualmente me he inclinado al desarrollo web, ya que me encanta diseñar paginas, de igual forma me gusta otorgar funcionalidades a las mismas.</p>
             </div>
             <div class="content">
                 <div class="textBox">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, amet, dolore unde delectus nisi eos alias dolor soluta autem temporibus, repellat corporis? Commodi totam explicabo saepe quod magnam voluptas unde!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eos ipsa ab iusto minus. Fugiat ea possimus veniam expedita amet mollitia aperiam minima odio, natus vero consequuntur cum autem quasi.
+                        <span>°</span> Puedo diseñar desde paginas informativas, hasta paginas complejas que contengan carrito de compras y pasarela de pagos. De igual forma puedo implementar funcionalidades a alguna web que lo requiera, por ejemplo, registro de datos, Inició de sesión, registro de usuarios, entre otras muchas cosas, solo pidelo y lo haré realidad. 
                         <br><br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nihil odio magnam hic rem libero neque autem placeat in molestiae sunt nam, totam quis numquam sit, voluptatum, repellat ipsa exercitationem?
+                        <span>°</span> Me gusta estar siempre en contacto con mis clientes, con la finalidad de entregar un producto a la altura del mismo e implementar los cambios que sean necesarios
+                        <br><br>
+                        <span>°</span> Trabajo utilizando <span>HTML</span>, <span>CSS</span>, <span>Bootstrap</span>, <span>Javascript</span>, <span>PHP</span>, <span>Laravel</span>
+                        <br>
+                        <span>°</span> Tambien cuento con experiencia en <span>Java</span>, <span>C#</span> y <span>Python</span>.
                     </p>
                 </div>
                 <div class="imgBox">
@@ -60,36 +67,38 @@
         <section class="services" id="services">
             <div class="title ">
                 <h2>¿Qué Servícios Ofrezco?</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quod ullam, dolores aut quaerat at illo esse ipsa id saepe rem molestiae enim. Quam perferendis earum, iure eveniet aut a!</p>
+                <br><br>
             </div>
             <div class="content">
                 <div class="servicesBox">
                     <img src="/images/icon1.png" alt="">
                     <h2>Diseño Web</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, quam reprehenderit, blanditiis hic quis esse, iusto commodi facilis officia cupiditate tempora perspiciatis. Similique quia illum tempore dolore quod laborum? Obcaecati.
-                    </p>
+                    <p> Diseño tu pagina web desde cero.</p>
+                        <br>
+                    <p> Tú elijes el diseño.</p>
+                        <br>
+                    <p> Disponibilidad 24/7 por consultas.</p>
+                        <br>
+                    <p>Precios Accesibles.</p>
+                    
                 </div>
                 <div class="servicesBox">
                     <img src="/images/icon2.png" alt="">
                     <h2>Programación Back-End</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, quam reprehenderit, blanditiis hic quis esse, iusto commodi facilis officia cupiditate tempora perspiciatis. Similique quia illum tempore dolore quod laborum? Obcaecati.
-                    </p>
+                    <p>¿Tú pagina necesita registrar usuario? Yo lo puedo implementar.</p>
+                    <br>
+                    <p>¿Tú pagina necesita agregar nuevas funciones de seguridad? Dejamelo a mi.</p>
+                    <br>
+                    <p>¿Necesitas filtrar tipos de usuarios? Lo haré posible.</p>
                 </div>
                 <div class="servicesBox">
                     <img src="/images/icon1.png" alt="">
-                    <h2>Diseño Web</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, quam reprehenderit, blanditiis hic quis esse, iusto commodi facilis officia cupiditate tempora perspiciatis. Similique quia illum tempore dolore quod laborum? Obcaecati.
-                    </p>
-                </div>
-                <div class="servicesBox">
-                    <img src="/images/icon2.png" alt="">
-                    <h2>Programación Back-End</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, quam reprehenderit, blanditiis hic quis esse, iusto commodi facilis officia cupiditate tempora perspiciatis. Similique quia illum tempore dolore quod laborum? Obcaecati.
-                    </p>
+                    <h2>Programación Front-End</h2>
+                    <p>Puedo mejorar el aspecto de tu web.</p>
+                    <br>
+                    <p>Puedo agregar nuevas animaciones, para que sea mas atractiva.</p>
+                    <br>
+                    <p>Si lo puedes imaginar, yo lo puedo añadir.</p>
                 </div>
             </div>
         </section>
@@ -97,25 +106,35 @@
         <section class="works" id="works">
             <div class="title">
                 <h2>Mis Proyectos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, saepe at mollitia velit fugiat quas delectus deserunt voluptate asperiores perspiciatis tempore voluptatem perferendis ipsam iste quasi nulla voluptates? Facilis, voluptatem?</p>
+                <p>Estos son algunos de los proyectos hechos hasta la fecha.</p>
             </div>
             <div class="content">
                 <div class="workBox">
                     <div class="imgBox">
-                        <img src="/images/unnamed.jpg" alt="">
+                        <img src="/images/TeaWeb.png" alt="">
                     </div>
                     <div class="textBox">
-                        <h3>Proyecto - Nombre</h3>
+                        
+                        <a href="{{url('/ResponsiveWeb')}}"><h3>Web informativa sobre infusiones de té</h3></a>
                     </div>
                 </div>
                 <div class="workBox">
                     <div class="imgBox">
-                        <img src="/images/unnamed.jpg" alt="">
+                        <img src="/images/Login.png" alt="">
                     </div>
                     <div class="textBox">
-                        <h3>Proyecto - Nombre</h3>
+                        <a href="{{url('/Login')}}"><h3>Inicio de sesión funcional</h3></a>
                     </div>
                 </div>
+                <div class="workBox">
+                    <div class="imgBox">
+                        <img src="/images/Css.png" alt="">
+                    </div>
+                    <div class="textBox">
+                        <a href="{{url('/CssWeb')}}"><h3>Css utilizado para pobrar el modo oscuro</h3></a>
+                    </div>
+                </div>
+               
                 <div class="workBox">
                     <div class="imgBox">
                         <img src="/images/unnamed.jpg" alt="">
@@ -138,7 +157,7 @@
         <section class="contact" id="contact">
             <div class="title white">
                 <h2>Contactame</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam ullam aliquid, ipsum tempore deserunt, rerum voluptate labore ex modi hic, odio saepe voluptas laborum voluptatibus. Magni quaerat praesentium iusto?</p>
+                <p>Puedes contactarme siempre que lo requieras, estoy atento a mis redes de forma regular.</p>
             </div>
             <div class="contactForm">
                 <div class="row">
@@ -165,8 +184,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col100">
+                    <div class="col100 ">
                         <input type="submit" value="Enviar">
+                        <span></span><span></span><span></span><span></span>
                     </div>
                 </div>
 

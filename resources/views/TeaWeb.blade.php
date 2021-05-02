@@ -184,7 +184,7 @@
         <div class="content">
             <div class="box">
                 <div class="imgbox">
-                    <img src="/images/woman.jpg" alt="">
+                    <img src="/images/testi1.jpg" alt="">
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste quam, a recusandae, ut voluptatibus nihil modi repudiandae odio minus obcaecati ad tempore placeat debitis deserunt necessitatibus cum ratione officia?</p>
@@ -194,7 +194,7 @@
 
             <div class="box">
                 <div class="imgbox">
-                    <img src="/images/guy.jpg" alt="">
+                    <img src="/images/testi2.jpg" alt="">
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste quam, a recusandae, ut voluptatibus nihil modi repudiandae odio minus obcaecati ad tempore placeat debitis deserunt necessitatibus cum ratione officia?</p>
@@ -204,7 +204,7 @@
 
             <div class="box">
                 <div class="imgbox">
-                    <img src="/images/woman2.jpg" alt="">
+                    <img src="/images/testi3.jpg" alt="">
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste quam, a recusandae, ut voluptatibus nihil modi repudiandae odio minus obcaecati ad tempore placeat debitis deserunt necessitatibus cum ratione officia?</p>
