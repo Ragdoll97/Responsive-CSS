@@ -29,7 +29,7 @@
                             <li><i class="fa fa-times" aria-hidden="true"></i>
                                 Soporte 24/7</li>
                         </ul>
-                        <a href="#">Contrar Ahora</a>
+                        <a href="#">Contratar Ahora</a>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                             <li><i class="fa fa-times" aria-hidden="true"></i>
                                 Soporte 24/7</li>
                         </ul>
-                        <a href="#">Contrar Ahora</a>
+                        <a href="#">Contratar Ahora</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                             <li><i class="fa fa-check" aria-hidden="true"></i>
                                 Soporte 24/7</li>
                         </ul>
-                        <a href="#">Contrar Ahora</a>
+                        <a href="#">Contratar Ahora</a>
                 </div>
             </div>
         </div>

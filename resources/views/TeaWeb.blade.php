@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Tecitos<span><i class="fa fa-coffee" aria-hidden="true"></i></span></a>
+        <a href="#" class="logo">Tea Cup<span><i class="fa fa-coffee" aria-hidden="true"></i></span></a>
         <div class="menuToggle" onclick="menuToggle();"></div>
         <ul class="navigation" >
             <li><a href="#banner" onclick="menuToggle();">Inicio</a></li>
