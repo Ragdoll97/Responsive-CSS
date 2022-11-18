@@ -28,7 +28,7 @@
                     <h4>Soy un desarrollador web Front-End y Back-End</h4>
                     <p>Ofrezco un ambiente de confianza y transparencia en todo el desarrollo del proyecto, tomaré importancia a cada petición del cliente, cumpliendo con sus expectativas al máximo.</p>
                     <p>Puedes contactarme por medio de mis redes, incluidas aquí abajo.</p>
-                    <a href="#" class="btn btn-1">Sobre Mi
+                    <a href="about" class="btn btn-1">Sobre Mi
                         <span></span><span></span><span></span><span></span>
                     </a>
  

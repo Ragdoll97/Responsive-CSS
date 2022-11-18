@@ -26,7 +26,7 @@
     </header>
     <section class="banner" id="banner">
         <div class="content">
-            <h2>Tecitos hechos por niña tecito</h2>
+            <h2>Web sobre Té</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci exercitationem deleniti laudantium, molestias aperiam quam quos deserunt quas mollitia. Libero excepturi deserunt doloribus molestiae enim pariatur, maxime itaque! Sed!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt aspernatur laborum porro saepe fugit asperiores provident eius dicta? Vitae, dignissimos rem totam libero accusantium molestias reiciendis perferendis beatae vero.
             </p>
