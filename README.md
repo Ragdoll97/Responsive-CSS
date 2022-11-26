@@ -1,62 +1,243 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio Personal</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="{{ url('/static/css/portfolio.css?v' . time()) }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+        <div class="toggle" onclick="ToggleMenu();"> </div>
+        
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+        <section class="banner" id="home">
+            <div class="imgSidebar">
+                <img src="/images/1bg.jpg" alt="">
+            </div>
+            <div class="contentBox">
+                <h5 class="logoText">Mi Portafolio</h5>
+                <div>
+                    <h4><span>Hola</span>, Mi nombre es</h4>
+                    <h2>Danilo Soto</h2>
+                    <h4>Soy un desarrollador web Front-End y Back-End</h4>
+                    <p>Ofrezco un ambiente de confianza y transparencia en todo el desarrollo del proyecto, tomaré importancia a cada petición del cliente, cumpliendo con sus expectativas al máximo.</p>
+                    <p>Puedes contactarme por medio de mis redes, incluidas aquí abajo.</p>
+                    <a href="#about" class="btn btn-1">Sobre Mi
+                        <span></span><span></span><span></span><span></span>
+                    </a>
+ 
+                </div>
+                <ul class="sci">
+                    <li><a href="https://github.com/Ragdoll97"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/danilosoto97/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/Danilo.Soto97/"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </section>
 
-## About Laravel
+        <section class="about" id="about">
+            <div class="title white">
+                <h2>Sobre Mi</h2>
+                <p>Soy ex-Alumno titulado de INACAP, estudíe analista programador, actualmente me he inclinado al desarrollo web, ya que me encanta diseñar paginas, de igual forma me gusta otorgar funcionalidades a las mismas.</p>
+            </div>
+            <div class="content">
+                <div class="textBox">
+                    <p>
+                        <span>°</span> Puedo diseñar desde paginas informativas, hasta paginas complejas que contengan carrito de compras y pasarela de pagos. De igual forma puedo implementar funcionalidades a alguna web que lo requiera, por ejemplo, registro de datos, Inició de sesión, registro de usuarios, entre otras muchas cosas, solo pidelo y lo haré realidad. 
+                        <br><br>
+                        <span>°</span> Me gusta estar siempre en contacto con mis clientes, con la finalidad de entregar un producto a la altura del mismo e implementar los cambios que sean necesarios
+                        <br><br>
+                        <span>°</span> Trabajo utilizando <span>HTML</span>, <span>CSS</span>, <span>Bootstrap</span>, <span>Javascript</span>, <span>PHP</span>, <span>Laravel</span>
+                        <br>
+                        <span>°</span> Tambien cuento con experiencia en <span>Java</span>, <span>C#</span> y <span>Python</span>.
+                    </p>
+                </div>
+                <div class="imgBox">
+                    <img src="/images/2bg.jpg" alt="">
+                </div>
+            </div>
+        </section>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+        <section class="services" id="services">
+            <div class="title ">
+                <h2>¿Qué Servícios Ofrezco?</h2>
+                <br><br>
+            </div>
+            <div class="content">
+                <div class="servicesBox">
+                    <img src="/images/icon1.png" alt="">
+                    <h2>Diseño Web</h2>
+                    <p> Diseño tu pagina web desde cero.</p>
+                        <br>
+                    <p> Tú elijes el diseño.</p>
+                        <br>
+                    <p> Disponibilidad 24/7 por consultas.</p>
+                        <br>
+                    <p>Precios Accesibles.</p>
+                    
+                </div>
+                <div class="servicesBox">
+                    <img src="/images/icon2.png" alt="">
+                    <h2>Programación Back-End</h2>
+                    <p>¿Tú pagina necesita registrar usuario? Yo lo puedo implementar.</p>
+                    <br>
+                    <p>¿Tú pagina necesita agregar nuevas funciones de seguridad? Dejamelo a mi.</p>
+                    <br>
+                    <p>¿Necesitas filtrar tipos de usuarios? Lo haré posible.</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="/images/icon1.png" alt="">
+                    <h2>Programación Front-End</h2>
+                    <p>Puedo mejorar el aspecto de tu web.</p>
+                    <br>
+                    <p>Puedo agregar nuevas animaciones, para que sea mas atractiva.</p>
+                    <br>
+                    <p>Si lo puedes imaginar, yo lo puedo añadir.</p>
+                </div>
+            </div>
+        </section>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+        <section class="works" id="works">
+            <div class="title">
+                <h2>Mis Proyectos</h2>
+                <p>Estos son algunos de los proyectos hechos hasta la fecha.</p>
+            </div>
+            <div class="content">
+                <div class="workBox">
+                    <div class="imgBox">
+                        <img src="/images/TeaWeb.jpg" alt="">
+                    </div>
+                    <div class="textBox">
+                        
+                        <a href="{{url('/ResponsiveWeb')}}"><h3>Web informativa sobre infusiones de té</h3></a>
+                    </div>
+                </div>
+                <div class="workBox">
+                    <div class="imgBox">
+                        <img src="/images/Login.jpg" alt="">
+                    </div>
+                    <div class="textBox">
+                        <a href="{{url('/Login')}}"><h3>Inicio de sesión funcional</h3></a>
+                    </div>
+                </div>
+                <div class="workBox">
+                    <div class="imgBox">
+                        <img src="/images/Css.jpg" alt="">
+                    </div>
+                    <div class="textBox">
+                        <a href="{{url('/CssWeb')}}"><h3>Css utilizado para pobrar el modo oscuro</h3></a>
+                    </div>
+                </div>
+               
+                <div class="workBox">
+                    <div class="imgBox">
+                        <img src="/images/unnamed.jpg" alt="">
+                    </div>
+                    <div class="textBox">
+                        <h3>Proyecto - Nombre</h3>
+                    </div>
+                </div>
+                <div class="workBox">
+                    <div class="imgBox">
+                        <img src="/images/unnamed.jpg" alt="">
+                    </div>
+                    <div class="textBox">
+                        <h3>Proyecto - Nombre</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+        <section class="contact" id="contact">
+            <div class="title white">
+                <h2>Contactame</h2>
+                <p>Puedes contactarme siempre que lo requieras, estoy atento a mis redes de forma regular.</p>
+                
+            </div>
+            <div class="contactForm">
+                <div class="row">
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Nombre">
+                    </div>
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Apellido">
+                    </div>
+                </div>
 
-## Learning Laravel
+                <div class="row">
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Correo Electronico">
+                    </div>
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Numero Contacto">
+                    </div>
+                </div>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+                <div class="row">
+                    <div class="col100">
+                       <textarea placeholder="Mensaje"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col100 ">
+                        <input type="submit" value="Enviar">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+            </div>
+        </section>
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="#home" onclick="ToggleMenu();">Inicio</a></li>
+                <li><a href="#about" onclick="ToggleMenu();">Sobre Mi</a></li>
+                <li><a href="#services" onclick="ToggleMenu();">Servicios</a></li>
+                <li><a href="#works" onclick="ToggleMenu();">Mis Proyectos</a></li>
+                <li><a href="#contact" onclick="ToggleMenu();">Contacto</a></li>
+            </ul>
+        </div>
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+        <div class="sidenav">
+            <ul>
+                <li class="sidelinks sidetele">
+                    <a href="#" data-toggle="tooltip" title="Telegram" rel="noopener noreferrer" target="_blank">
+                        <i class="fa fa-telegram" aria-hidden="true"></i><span>Telegram</span>
+                    </a>
+                </li>            
+                <li class="sidelinks sidefb">
+                    <a href="#" data-toggle="tooltip" title="Telegram" rel="noopener noreferrer" target="_blank">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i><span>Facebook</span>
+                    </a>
+                </li>
+                <li class="sidelinks sidegit">
+                    <a href="#" data-toggle="tooltip" title="GitHub" rel="noopener noreferrer" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span>
+                    </a>
+                </li>
+                <li class="sidelinks sideln">
+                    <a href="#" data-toggle="tooltip" title="Telegram" rel="noopener noreferrer" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i><span>Linkedin</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    <script>
+        function ToggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
